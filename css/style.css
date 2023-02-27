@@ -1,18 +1,27 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     margin: 0;
     align-items: center;
     background-color: rgb(62, 64, 74);
+    
    
 }
 .timer{
     display: flex;
     justify-content: end;
     align-items: center;
-    transform: rotateZ(0deg);
+    margin-bottom: 1rem;
+
 }
+
+
+@keyframes rotateTimer {
+    100% {rotate: 360deg;}
+}
+
 .timer_body{
     height: 10rem;
     width: 10rem;
@@ -30,3 +39,7 @@ body{
     z-index: 5;
 }
 
+#display{
+    color: white;
+    margin: 0;
+}
