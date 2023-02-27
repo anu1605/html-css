@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: rgb(62, 64, 74);
+   
+}
+.timer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transform: rotateZ(0deg);
+}
+.timer_body{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+.minute{
+    box-sizing: border-box;
+    width: 5rem;
+    border: 1px solid white;
+    border-right: 1px solid rgb(62, 64, 74);
+    position: absolute;
+    z-index: 5;
+}
+
